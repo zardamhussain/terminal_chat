@@ -24,23 +24,18 @@ This is a simple chat server built in Elixir that uses TCP connections to allow 
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/zardamhussain/terminal_chat.git
+   cd terminal_chat
    ```
 
-2. **Compile the project:**
+2. **Compile and Run the project:**
 
    ```bash
-   mix compile
+   elixirc lib/room.ex start.exs
    ```
 
 ### Running the Server
 
-Start the server with:
-
-```bash
-mix run --no-halt
-```
 
 The server will listen on TCP port `8080`.
 
